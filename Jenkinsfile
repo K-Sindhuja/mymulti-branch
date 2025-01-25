@@ -3,12 +3,17 @@ pipeline{
     stages{
         stage("Code"){
             steps{
-                echo "this is a code stage"
+                echo "my husband name is shyam"
             }
         }
         stage("Build"){
             steps{
-                echo "this is a build stage"
+                echo "we live eachother in feature"
+            }
+        }
+        stage("Test"){
+            steps{
+                echo "this is a testing stage"
             }
         }
     }
